@@ -70,6 +70,8 @@ reducers: {
      }
 //...
 
+```
+
 6) For complex JSON data, while it generally should be as simplified as possible if you can help it, there are ways to map that data into an array of objects and interpret those objects.
 
 ```js
