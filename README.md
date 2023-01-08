@@ -48,7 +48,7 @@ reducers: {
     },
   },
 
-  extraReducers: builder => {
+extraReducers: builder => {
     builder
       // registration:
       .addCase( register.pending, state => {
@@ -67,7 +67,7 @@ reducers: {
       .addCase( register.rejected, state => {
         state.loading = false;
       })
-     }
+}
 //...
 
 ```
